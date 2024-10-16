@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('/', {
+      const response = await fetch('database-dashboard-mergedryio2-yossaphan-kaenwongs-projects.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
