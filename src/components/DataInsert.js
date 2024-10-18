@@ -26,7 +26,7 @@ const DataInsert = () => {
         e.preventDefault(); // Prevent the default form submission
 
         try {
-            const response = await fetch('database-dashboard-mergedryio2-yossaphan-kaenwongs-projects.vercel.app/datainsert', {
+            const response = await fetch('/datainsert', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

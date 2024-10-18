@@ -18,7 +18,7 @@ const Dashboard = () => {
     try {
       setLoading(true);
       setError(null); // Reset error before fetching
-      const response = await fetch('database-dashboard-mergedryio2-yossaphan-kaenwongs-projects.vercel.app/dashboard', {
+      const response = await fetch('/dashboard', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
